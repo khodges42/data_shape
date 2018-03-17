@@ -1,0 +1,13 @@
+{
+"columns":{
+    "name" : {
+        "transform" : "lambda x: str(x)[::-1]"
+    },
+    "age" : "",
+    "_id" : {
+        "col_name" : "id",
+        "transform" : "lambda x: x + 'test'"
+    },
+    "notexist" : ""
+}
+}
