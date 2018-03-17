@@ -16,6 +16,10 @@ To rename a column, set the column value to a dictionary, and add the key "col_n
 
 To transform a column, include a lambda function in the "transform" key.
 
+**Comments**
+
+You can add comments anywhere in the json file by adding the "comment" key.
+
 ```
 {
 "columns":{
@@ -25,7 +29,8 @@ To transform a column, include a lambda function in the "transform" key.
     "age" : "",
     "_id" : {
         "col_name" : "id",
-        "transform" : "lambda x: x + 'test'"
+        "transform" : "lambda x: x + 'test'",
+        "comment" : "Adds Test to the back of this"
     },
     "not_on_this_table" : ""
 }
