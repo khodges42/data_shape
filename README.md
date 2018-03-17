@@ -6,7 +6,8 @@ python shapes.py --input test_data/test.json --config config.json --output datas
 
 ## Config
 
-*Columns*
+**Columns**
+
 Declare your wanted columns here. If you include a column in the config that is not in the input dataset, it will just be ignored.
 
 You can choose to simply include the column by just passing the column name as the key, and an empty string as the value.
